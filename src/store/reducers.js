@@ -1,7 +1,12 @@
-import {INPUT_CHANGE, ADD_ITEM, DELETE_ITEM, UPDATE_ITEM} from "./actionType";
+import {
+  INPUT_CHANGE,
+  ADD_ITEM,
+  DELETE_ITEM,
+  UPDATE_ITEM
+} from "./actionType"
 const initState = {
   inputValue: '',
-  list: ['dayNight']
+  list: ['dayNight', 'i saw an angel']
 }
 export default (state = initState, action) => {
   if (action.type === INPUT_CHANGE) {
